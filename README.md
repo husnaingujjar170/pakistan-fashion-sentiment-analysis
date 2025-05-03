@@ -1,24 +1,19 @@
-Here's a complete `README.md` file for your repository:
-
----
-
-````markdown
 # Pakistan Fashion Sentiment Analysis
 
-This project performs sentiment analysis on customer feedback related to Pakistani fashion brands. Using VADER (Valence Aware Dictionary and sEntiment Reasoner), the script classifies comments into **Positive**, **Negative**, or **Neutral** sentiments. It also visualizes sentiment trends over time, by brand, platform, and theme, and highlights the most common keywords in positive and negative comments.
+This project performs sentiment analysis on customer feedback related to Pakistani fashion brands. Using VADER (Valence Aware Dictionary and sEntiment Reasoner), the script classifies comments into Positive, Negative, or Neutral sentiments. It also visualizes sentiment trends over time, by brand, platform, and theme, and highlights the most common keywords in positive and negative comments.
 
 ## 📂 Dataset
 
 The dataset used (`pakistani_fashion_sentiment_dataset.csv`) includes:
-- Customer **comments**
-- Associated **brand**, **platform**, **theme**, and **date**
-- Manually labeled **sentiments**
+- Customer comments
+- Associated brand, platform, theme, and date
+- Manually labeled sentiments
 
 ## 🧠 Features
 
-- **Text Preprocessing**: Stopword removal, punctuation cleaning, lowercasing.
-- **Sentiment Analysis**: Using VADER to predict sentiment scores.
-- **Visualizations**:
+- Text Preprocessing: Stopword removal, punctuation cleaning, lowercasing.
+- Sentiment Analysis: Using VADER to predict sentiment scores.
+- Visualizations:
   - Sentiment distribution pie chart and count plot
   - Monthly sentiment trend
   - Sentiment breakdown by brand, platform, and theme
